@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color: rgb(0, 190, 255);
+    display: flex;
+    width: 99%;
+    margin: 0 .5%;
+    height: 70px;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    top: 3px;
+    z-index: 1;
+}
+.div-logo{
+    width: 50%;
+    text-align: left;
+    align-self: center;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 2.5%;
+    position: relative;
+    top: 2px;
+}
+.div-menu-icon{
+    width: 50%;
+    text-align: right;
+    align-self: center;
+}
+.menu-icon{
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    margin: 0 2.5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.menu-icon:hover{
+    background-color: rgb(0, 157, 209);
+    transition: .3s;
+}
+.result-menu-icon{
+    width: 99%;
+    margin: 0 .5%;
+    text-align: center;
+    background-color: #292a2d;
+    transition-property: height;
+    transition: 1s;
+    overflow: hidden;
+    height: 0;
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+    opacity: .9;
+}
+.result-menu-icon:hover{
+    opacity: 1;
+    transition: .3s;
+}
+.result-menu-icon a{
+    text-decoration: none;
+}
+.result-menu-icon button{
+    width: 97.5%;
+    height: 50px;
+    margin: 5px 0;
+    background-color: darkgray;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.result-menu-icon button:hover{
+    background-color: grey;
+    color: white;
+    transition: .4s;
+}
+#a1{
+    margin-top: 10px;
+}
+#a3{
+    margin-bottom: 5px;
+}
+.main-section{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 90px
+}
+.main-section label{
+    font-size: 100px;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    width: 99%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: .5%;
+}
+.footer p{
+    color: white;
+    font-style: italic;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.location-section{
+    text-align: center;
+    background-color: rgb(0, 190, 255);
+    width: 99%;
+    margin: 0 .5%;
+    border: none;
+    border-radius: 5px;
+}
+.my-location{
+    width: 80%;
+    margin: 2.5% .5%;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+}
+.link-banners{
+    display: flex;
+    width: 99%;
+    margin: 0 .5%;
+    text-align: center;
+}
+
+.link-banners img{
+    width: 90%;
+    height: 55%;
+    border: none;
+    border-radius: 5px;
+}
+.link-banners h6{
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.link-banners label{
+    font-size: 17.4px;
+    font-family: sans-serif;
+}
+.link-banners button{
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.link-banners button:hover{
+    background-color: rgb(0, 190, 255);
+    color: black;
+    transition: .4s;
+}
+.link-banners a{
+    text-decoration: none;
+}
+.social-links{
+    text-align: center;
+    width: 26%;
+    background-color: #efefef;
+    padding: 20px 0;
+    border: none;
+    border-radius: 20px;
+    margin: 5%;
+}
+.wix-site{
+    text-align: center;
+    width: 26%;
+    padding: 20px 0;
+    background-color: #efefef;
+    border: none;
+    border-radius: 20px;
+    margin: 5%;
+}
+.quran-with-translation{
+    text-align: center;
+    width: 26%;
+    background-color: #efefef;
+    padding: 20px 0;
+    border: none;
+    border-radius: 20px;
+    margin: 5%;
+}
+.location-section p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+html::-webkit-scrollbar {
+    width: 1vw;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+html::-webkit-scrollbar-track{
+    background-color: darkgrey
+}
+.result-menu-icon-mini-width{
+    display: none;
+}
+.result-menu-icon i{
+    position: relative;
+    top: -1px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1150px){
+    .link-banners{
+        display: block;
+    }
+    .social-links{
+        width: 70%;
+        margin: 10% 15%;
+    }
+    .wix-site{
+        width: 70%;
+        margin: 10% 15%;
+    }
+    .quran-with-translation{
+        width: 70%;
+        margin: 10% 15%;
+    }
+    .main-section label{
+        font-size: 80px;
+        position: relative;
+        top: 40px;
+    }
+    .location-section p{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .my-location{
+        height: 120px;
+    }  
+    .result-menu-icon-mini-width{
+        display: none;
+    }
+    .result-menu-icon i{
+        position: relative;
+        top: -1px;
+        margin: 0 5px;
+    }
+}
+ 
+
+
+
+@media (max-width:700px){
+    .result-menu-icon-mini-width{
+        display: block;
+        position: fixed;
+        top: 60px;
+        overflow: hidden;
+        background-color: #292a2d;
+        width: 99%;
+        text-align: center;
+        margin: .5%;
+        border: none;
+        border-radius: 10px;
+        height: 0px;
+        transition-property: height;
+        transition: 1s;
+        opacity: .9;
+        z-index: 1;
+    }
+    .result-menu-icon-mini-width:hover{
+        opacity: 1;
+    }
+    .result-menu-icon-mini-width button{
+        width: 95%;
+        margin: 2.5px 0;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .result-menu-icon-mini-width button:hover{
+        background-color: grey;
+        color: #efefef;
+        transition: .5s;
+    }
+    .result-menu-icon-mini-width i{
+        position: relative;
+        top: -1px;
+        margin: 0 5px;
+    }
+    .result-menu-icon{
+        display: none;
+    }
+    #a5{
+        margin-top: 10px;
+    }
+    #a7{
+        margin-bottom: 10px;
+    }
+    .nav-bar{
+        height: 55px;
+    }
+    .logo{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: 1px;
+    }
+    .menu-icon{
+        height: 30px;
+        width: 35px;
+        margin-right: 7%;
+    }
+    .main-section label{
+        font-size: 55px;
+        position: relative;
+        top: -15px;
+    }
+    .social-links{
+        width: 70%;
+        margin: 5% 15% ;
+    }
+    .wix-site{
+        width: 70%;
+        margin: 5% 15% ;
+    }
+    .quran-with-translation{
+        width: 70%;
+        margin: 5% 15% ;
+    }
+    .location-section{
+        margin: 1%;
+        width: 98%;
+    }
+    .footer{
+        margin: 1%;
+        width: 98%;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .location-section p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .my-location{
+        width: 90%;
+        height: 100px;
+    }
+    .logo{
+        position: relative;
+        top: 2px;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="logo icon" href="/Media/logoicon.png">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/1201bfa300.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="div-logo">
+                <a href="/index.html"><img src="/Media/logo.jpg" alt="logo" class="logo"></a>
+            </div>
+            <div class="div-menu-icon">
+                <img src="/Media/1.svg" class="menu-icon" onclick="aa();bb()">
+            </div>
+        </nav>
+        <div class="result-menu-icon" id="result-menu-icon">
+            <a href="/index.html"><button id="a1"><i class="fa-solid fa-house"></i>Home</button></a> <br>
+            <a href="/about.html"><button id="a3"><i class="fa-regular fa-user"></i> About</button></a>
+        </div>
+        <div class="result-menu-icon-mini-width" id="result-menu-icon-mini-width">
+            <a href="/index.html"><button id="a5"><i class="fa-solid fa-house"></i>Home</button></a> <br>
+            <a href="/about.html"><button id="a7"><i class="fa-regular fa-user"></i> About</button></a>
+        </div>
+        <div class="main-heading">
+            <h1>Contact</h1>
+        </div>
+        <div class="main-content1">
+            <div class="gmail">
+                <img src="/Media/gmailimg.png" class="gmail-img">
+            </div>
+            <div class="gmail-content">
+                <p>You can Contact me at<label> rehmanhaider.def@gmail.com</label></p>
+            </div>
+        </div>
+        <div class="main-content2">
+            <div class="zoom">
+                <img src="/Media/zoomimg.jpg">
+            </div>
+            <div class="zoom-content">
+                <p>You can Contact me on Zoom at <label>rehmanhaider.def@gmail.com</label></p>
+            </div>
+        </div>
+        <section class="location-section">
+            <p>I heartily Welcome you all in my WebSite. I hope that you will like my WebSite and also hope that you will help to grow up in the Environment of Sicial Media and Technology.</p>
+            <iframe class="my-location" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2360.189057866467!2d73.85015541287282!3d32.41636295988004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1659857353782!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer class="footer">
+            <p>Created By Rehman Haider from Pakistan</p>
+        </footer>
+    </div>
+</body>
+<script>
+    
+function aa() {
+    let x = document.getElementById("result-menu-icon")
+    if (x.style.height === "132px"){
+        x.style.height = "0px"
+    }
+    else {
+        x.style.height = "132px"
+    }
+}
+function bb() {
+    let x = document.getElementById("result-menu-icon-mini-width")
+    if (x.style.height === "85px"){
+        x.style.height = "0px"
+    }
+    else {
+        x.style.height = "85px"
+    }
+}
+
+</script>
+</html>
